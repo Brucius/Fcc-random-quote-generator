@@ -1,0 +1,75 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+div{
+  position: relative;
+  z-index: 2;
+}
+
+body{
+  font-family: montserrat;
+  background: url("http://i.imgur.com/U8z8Y59.jpg") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+  color: white;
+}
+
+.qbox{
+  border-radius: 3px;
+  position: relative;
+  margin: 8% auto auto auto;
+  width: 450px;
+  padding: 40px 50px;
+  display: table;
+}
+
+.qbox .qtext{
+  text-align: center;
+  width: 450px;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+
+.qbox .buttons {
+  width: 450px;
+  margin: auto;
+  display: block;
+}
+
+.qbox .buttons .button {
+  height: 38px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: Transparent;
+  outline: none;
+  font-size: 0.85em;
+  padding: 8px 18px 6px 18px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.qbox .buttons .button#tweet,{
+  float: left;
+}
+
+.qbox .buttons .button#get-quote {
+  float: right;
+}
+
+.footer {
+  width: 450px;
+  text-align: center;
+  display: block;
+  margin: 15px auto 30px auto;
+  font-size: 0.8em;
+  color: #fff;
+}
+.footer a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+}
